@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "merageo",
+  "version": "0.1.0",
+  "description": "Check how often ChatGPT, Claude and Gemini mention a website, and request a new scan, through meraGEO's hosted MCP server.",
+  "author": {
+    "name": "Okyasoft Pte Ltd",
+    "email": "hello@merageo.com",
+    "url": "https://merageo.com"
+  },
+  "homepage": "https://merageo.com/guides/connect-your-coding-agent",
+  "repository": "https://github.com/Sandeep85Das/merageo-hermes-plugin",
+  "license": "MIT",
+  "keywords": ["merageo", "ai visibility", "geo", "seo", "brand mentions", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "merageo": { "trust": "untrusted" }
+      }
+    }
+  }
+}
